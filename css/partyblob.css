@@ -1,18 +1,8 @@
-.img-1{
-	height: 325px;
-	width: 25%;
-	text-align: right;
-	padding: 25px 70px;
-}
-
-.img-2{
-	
-}
-
 h1{
-	font-family: 'Permanent Marker', cursive;
+	font-family: 'Faster One', cursive;
 	padding-top: 65px;
 	color: #DD0000;
+	font-size: 35px;
 }
 
 h3{
@@ -24,6 +14,24 @@ h3{
 html{
 	background-color: #818385;
 	max-width: 1500px;
+}
+
+.img-1{
+	height: 325px;
+	width: 25%;
+	text-align: right;
+	padding: 25px 70px;
+	max-width: 275px;
+}
+
+.img-2{
+	text-align: left;
+	
+}
+
+.yo{
+	color: #2156D8;
+	font-size: 75px;
 }
 
 .luck{
@@ -41,4 +49,10 @@ html{
 	text-emphasis: 'x';
 -webkit-text-emphasis: 'x';
 	color: #000000; 
+}
+
+/*Define Screen Size/Styles - for mobile responsivness*/
+
+@media screen and (max-width: 1382px) {
+	html
 }
