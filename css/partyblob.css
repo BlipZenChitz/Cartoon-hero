@@ -1,34 +1,44 @@
-body{
-	background-color: lightyellow;
+.img-1{
+	height: 325px;
+	width: 25%;
+	text-align: right;
+	padding: 25px 70px;
+}
+
+.img-2{
+	
 }
 
 h1{
+	font-family: 'Permanent Marker', cursive;
+	padding-top: 65px;
+	color: #DD0000;
+}
+
+h3{
+	font-family: 'Bungee Inline', cursive;
 	font-size: 30px;
-	color: crimson
+
 }
 
-h2{
-	font-size: 45px;
-	color: darkgreen;
+html{
+	background-color: #818385;
+	max-width: 1500px;
 }
 
-.big{
-	font-size: 45px;
-}
-
-.uppercase{
+.luck{
 	text-transform: uppercase;
+	text-decoration: green wavy underline;
+	text-emphasis: '\25B2';
+-webkit-text-emphasis: '\25B2';
+	color: #BA0CA1;
 }
 
-.big.uppercase{
-	color: navy;
-}
-
-span{
-	color: violet;
-}
-
-img{
-	height: ;
-	width: ;
+.unluck{
+	font-family: 'Bangers', cursive;
+	text-transform: uppercase;
+	text-decoration: #4B1414 dotted underline;
+	text-emphasis: 'x';
+-webkit-text-emphasis: 'x';
+	color: #000000; 
 }
